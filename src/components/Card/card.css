@@ -1,0 +1,47 @@
+p {
+    margin: 0;
+}
+
+.card {
+    border-radius: 10px;
+    border: 1px solid black;
+    
+}
+
+.cardImg {
+    text-align: center;
+}
+
+.cardTypes {
+    display: flex;
+    justify-content: center;    
+}
+
+.cardType {
+    padding: 5px 10px;
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cardName {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 20px;
+    border-bottom: 12px solid red;
+}
+
+.cardInfo {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.cardData {
+    padding-bottom: 10px;
+}
+
+.cardData .title {
+    font-weight: 700;
+    text-align: center;
+}
