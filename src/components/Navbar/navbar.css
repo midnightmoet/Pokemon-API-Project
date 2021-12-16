@@ -1,7 +1,7 @@
 .navbar {
     text-align: center;
     padding: 20px;
-    background: red;
+    background: linear-gradient(to right, red, gray);
     color: black;
     font-weight: 700;
     font-size: 32px;

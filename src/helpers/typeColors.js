@@ -1,5 +1,5 @@
 const typeColors = {
-    bug: '#729f3f',
+    bug: 'lightgreen',
     dragon: '#53a4cf',
     fairy: '#fdb9e9',
     fire: 'orange',
@@ -16,7 +16,7 @@ const typeColors = {
     ice: '#51c4e7',
     poison: 'purple',
     rock: 'slategray',
-    water: 'blue'
+    water: 'turquoise'
 };
 
 export default typeColors;

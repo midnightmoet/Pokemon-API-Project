@@ -4,7 +4,7 @@ p {
 
 .card {
     border-radius: 10px;
-    border: 1px solid black;
+    border: 2px solid black;
     
 }
 
@@ -19,9 +19,10 @@ p {
 
 .cardType {
     padding: 5px 10px;
-    margin: 10px 10px 10px 0;
+    margin: 20px 2px;
     border-radius: 5px;
     text-align: center;
+    font-weight: bold;
 }
 
 .cardName {
@@ -29,7 +30,7 @@ p {
     text-transform: capitalize;
     font-weight: 800;
     font-size: 20px;
-    border-bottom: 12px solid red;
+    border-bottom: 10px solid  red;
 }
 
 .cardInfo {
