@@ -8,6 +8,11 @@ p {
     
 }
 
+.card:hover {
+    background-color: gray;
+    color: white;
+}
+
 .cardImg {
     text-align: center;
 }
