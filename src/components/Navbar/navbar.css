@@ -1,8 +1,46 @@
 .navbar {
-    text-align: center;
+    text-align: center;;
     padding: 20px;
     background: linear-gradient(to right, red, gray);
     color: black;
     font-weight: 700;
     font-size: 32px;
+    border-style: 1px solid black;
+}
+
+.navbarLogin {
+    text-align: right;
+    padding: 0px;
+}
+
+.navbarLoginBtn {
+    background: blue;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    border-style: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.navbarLoginBtn:hover {
+    background: green;
+}
+
+.navbarRegisterBtn {
+    background: blue;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    border-style: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.navbarRegisterBtn:hover {
+    background: green;
 }

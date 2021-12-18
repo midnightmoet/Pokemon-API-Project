@@ -17,11 +17,16 @@
 }
 
 .btn button {
-  border-style: none;
+  border-style: 1px solid black;
   padding: 5px 10px;
   margin-right: 10px;
   border-radius: 10px;
   background: blue;
   color: #fff;
   font-size: 1em;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background: green;
 }
