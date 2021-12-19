@@ -4,8 +4,10 @@
 
 .grid-container {
   width: 70%;
+  display: -ms-grid;
   display: grid;
   margin: 0 auto;
+  -ms-grid-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 10px;
 }

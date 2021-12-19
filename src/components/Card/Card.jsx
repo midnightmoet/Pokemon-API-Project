@@ -5,10 +5,7 @@ export default function Card({ pokemon }) {
     return (
         <div className="card">
             <div className="cardImg">
-                <img 
-                    src={pokemon.sprites.front_default} 
-                    alt="" 
-                />
+                <img src={pokemon.sprites.front_default} alt="" />
             </div>
             <div className="cardName">
                 {pokemon.name}
